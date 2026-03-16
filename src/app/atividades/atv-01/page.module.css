@@ -1,0 +1,15 @@
+.containerh1{
+    text-decoration: solid;
+    color: red;
+}
+
+.containerP{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagecss{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
