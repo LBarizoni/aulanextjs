@@ -4,7 +4,8 @@ import { useState } from "react";
 import styles from "./page.module.css";
 export default function Exemplo03() {  
 
-    const [num, setNum] = useState(0);
+    const [som, setsom] = useState(0);
+    const [sub, setsub] =;
 
     function handleIncrementa () {
         setNum(num + 69);
