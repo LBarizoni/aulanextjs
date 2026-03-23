@@ -18,12 +18,10 @@ export default function Exemplo03() {
     const valor = som + sub;
 
     return (
-        <>
             <div className={styles.container}>
-                <label className={styles.label}>{`Batons passados hj: ${valor}`}</label>
+                <label className={styles.label}>{`Contador de Clicks: ${valor}`}</label>
                 <button onClick={() => handleSoma()} className={styles.button1}>+1</button>
                 <button onClick={() => handleSub()} className={styles.button2}>-1</button>
             </div>
-        </>
     );
 }
