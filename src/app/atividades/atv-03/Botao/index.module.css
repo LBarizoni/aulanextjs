@@ -4,10 +4,22 @@
     margin: 0.5rem;
 }
 
-.mais {
-    background-color: forestgreen;
+.cadastrar {
+    background-color: green;
 }
 
-.menos {
-    background-color: tomato;
+.excluir {
+    background-color: red;
+}
+
+.editar{
+    background-color: aqua;
+}
+
+.listar{
+    background-color: chocolate;
+}
+
+.cancelar{
+    background-color: #202020;
 }
