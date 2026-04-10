@@ -7,7 +7,7 @@ import Botao from './Botao';
 import styles from './page.module.css';
 
 function Exemplo04() {
-    // O hook useState gerencia o valor do contador
+
     const [exibir, setExibir] = useState("");
 
     const cadastrar = () => setExibir("Cadastrar");
@@ -21,7 +21,6 @@ function Exemplo04() {
             <h1>Atividade 3 - Uso de componentes</h1>
             <h2>O valor atual é: {exibir}</h2>
 
-            {/* Passando funções e textos via Props para o componente Botao */}
             <Botao texto="Cadastrar" aoClicar={cadastrar} acao={"cadastrar"} />
             <Botao texto="Editar" aoClicar={editar} acao={"editar"} />
             <Botao texto="Listar" aoClicar={listar} acao={"listar"} />
