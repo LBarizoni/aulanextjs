@@ -62,7 +62,7 @@ export default function Atividade04() {
 
   return (
     <div className={styles.container}>
-      <h1>Lista</h1>
+      <h1>Atividade - 5 Lista Editável</h1>
 
       <form onSubmit={adicionar} className={styles.form}>
 
@@ -84,10 +84,10 @@ export default function Atividade04() {
           <li key={item.id} className={styles.linha}>{item.produto}
 
             <button type="button" className={styles.botaoExcluir} onClick={() => excluir(item.id)}>
-              Excluir
+            🗑️
             </button>
             <button type="button" className={styles.botaoEditar} onClick={() => editar(item.id)} >
-            Editar
+            ✏️
             </button>
           </li>
         ))}
