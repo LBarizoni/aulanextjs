@@ -1,0 +1,36 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 5px;
+}
+
+.botao {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.lista {
+  padding: 0;
+}
+
+.linha {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botaoExcluir {
+  padding: 3px 6px;
+  cursor: pointer;
+  background-color: crimson;
+}
